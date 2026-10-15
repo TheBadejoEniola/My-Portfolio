@@ -91,43 +91,6 @@ export function HeaderBio() {
           reports.
         </p>
       </div>
-            {/* Contact */}
-      <div id="contact" className="mt-12 pt-8 border-t border-[var(--border)]">
-        <h2 className="text-[17px] font-semibold text-[var(--text)] mb-3">
-          Contact
-        </h2>
-        <p className="text-[15px] leading-[1.7] text-[var(--text-muted)] mb-4">
-          I&apos;m currently open to data analyst opportunities. You&apos;re
-          welcome to reach out through any of the channels below.
-        </p>
-        <ul className="space-y-2 text-[15px] text-[var(--text-muted)]">
-          <li>
-            Email:{" "}
-            <a
-              href={`mailto:${personal.email}`}
-              className="font-medium text-[var(--text-link)] underline underline-offset-[3px] decoration-[var(--border)] hover:decoration-[var(--text-muted)] transition-colors"
-            >
-              {personal.email}
-            </a>
-          </li>
-          <li>
-            LinkedIn:{" "}
-            <LogoLink
-              href={personal.socials.linkedin}
-              domain="linkedin.com"
-              name="LinkedIn"
-            />
-          </li>
-          <li>
-            GitHub:{" "}
-            <LogoLink
-              href={personal.socials.github}
-              domain="github.com"
-              name="GitHub"
-            />
-          </li>
-        </ul>
-      </div>
     </section>
   );
 }
