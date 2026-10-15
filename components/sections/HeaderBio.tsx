@@ -67,47 +67,67 @@ export function HeaderBio() {
       </div>
 
       {/* Bio */}
-      <div className="space-y-4 text-[15px] leading-[1.7] text-[var(--text-muted)]">
+            <div className="space-y-4 text-[15px] leading-[1.7] text-[var(--text-muted)]">
         <p>
           I&apos;m a Data Analyst based in Nigeria. I turn complex datasets
-          into clear insights that help businesses make better decisions. Using{" "}
+          into clear insights that support better business decisions. Using{" "}
           <TechMention domain="powerbi.com" name="Power BI" />,{" "}
           <TechMention domain="mysql.com" name="SQL" />,{" "}
           <TechMention domain="python.org" name="Python" />, and{" "}
-          <TechMention domain="microsoft.com" name="Excel" />, I explore data,
-          spot trends, and tell the story behind the numbers through interactive
-          dashboards and reports.
+          <TechMention domain="microsoft.com" name="Excel" />, I clean and
+          explore data, identify trends, and communicate findings through
+          interactive dashboards and reports.
         </p>
         <p>
           My work covers data cleaning, exploratory analysis, KPI tracking, and
-          data visualisation. Each project starts with a real business question,
-          and I work through the data to find answers and uncover opportunities
-          others might miss.
+          data visualisation. Each project begins with a real business question,
+          and I work through the data to deliver clear, evidence-based answers.
         </p>
         <p>
-          I built my skills through hands-on training at TS Academy, where I
-          learned to turn real datasets into dashboards and reports. Find my
-          work on{" "}
-          <LogoLink
-            href={personal.socials.github}
-            domain="github.com"
-            name="GitHub"
-          />
-          , connect on{" "}
-          <LogoLink
-            href={personal.socials.linkedin}
-            domain="linkedin.com"
-            name="LinkedIn"
-          />
-          , or{" "}
-          <a
-            href={`mailto:${personal.email}`}
-            className="font-medium text-[var(--text-link)] underline underline-offset-[3px] decoration-[var(--border)] hover:decoration-[var(--text-muted)] transition-colors"
-          >
-            get in touch
-          </a>
-          .
+          My background in microbiology and quality control has given me a
+          strong eye for accuracy and detail. I developed my analytical skills
+          through practical, hands-on training, gaining experience in
+          transforming real datasets into meaningful dashboards and analytical
+          reports.
         </p>
+      </div>
+      </div>
+            {/* Contact */}
+      <div id="contact" className="mt-12 pt-8 border-t border-[var(--border)]">
+        <h2 className="text-[17px] font-semibold text-[var(--text)] mb-3">
+          Contact
+        </h2>
+        <p className="text-[15px] leading-[1.7] text-[var(--text-muted)] mb-4">
+          I&apos;m currently open to data analyst opportunities. You&apos;re
+          welcome to reach out through any of the channels below.
+        </p>
+        <ul className="space-y-2 text-[15px] text-[var(--text-muted)]">
+          <li>
+            Email:{" "}
+            <a
+              href={`mailto:${personal.email}`}
+              className="font-medium text-[var(--text-link)] underline underline-offset-[3px] decoration-[var(--border)] hover:decoration-[var(--text-muted)] transition-colors"
+            >
+              {personal.email}
+            </a>
+          </li>
+          <li>
+            LinkedIn:{" "}
+            <LogoLink
+              href={personal.socials.linkedin}
+              domain="linkedin.com"
+              name="LinkedIn"
+            />
+          </li>
+          <li>
+            GitHub:{" "}
+            <LogoLink
+              href={personal.socials.github}
+              domain="github.com"
+              name="GitHub"
+            />
+          </li>
+        </ul>
       </div>
     </section>
   );
