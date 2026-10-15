@@ -91,7 +91,6 @@ export function HeaderBio() {
           reports.
         </p>
       </div>
-      </div>
             {/* Contact */}
       <div id="contact" className="mt-12 pt-8 border-t border-[var(--border)]">
         <h2 className="text-[17px] font-semibold text-[var(--text)] mb-3">
