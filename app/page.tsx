@@ -1,6 +1,7 @@
 import { HeaderBio } from "@/components/sections/HeaderBio";
 import { ProjectsSection } from "@/components/sections/ProjectsSection";
 import { ExperienceSection } from "@/components/sections/ExperienceSection";
+import { Contact } from "@/components/sections/Contact";
 import { FadeUp } from "@/components/ui/FadeUp";
 
 export default function HomePage() {
@@ -15,6 +16,7 @@ export default function HomePage() {
       <FadeUp>
         <ExperienceSection />
       </FadeUp>
+      <Contact />
     </>
   );
 }
