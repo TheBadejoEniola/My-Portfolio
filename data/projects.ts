@@ -141,7 +141,7 @@ export const projects: Project[] = [
     description: "Cleaned and modelled three related tables of coffee orders in Power Query, built DAX measures, and designed a one-page interactive Power BI dashboard covering revenue, profit, products, countries and repeat customers.",
     tags: ["Power BI", "DAX", "Power Query", "Data Modelling"],
     color: "#5a3a2a",
-    image: "/images/coffee-dashboard.png",
+    image: "/images/Coffee-dashboard.png",
     github: "https://github.com/TheBadejoEniola/Coffee-Sales-Analytics",
     featured: true,
     span: "normal",
