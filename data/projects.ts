@@ -8,7 +8,7 @@ export const projects: Project[] = [
     description: "TS Academy capstone: a relational Power BI model and interactive report analysing driver performance, route profitability, fleet utilisation, fuel usage, maintenance and safety for a trucking operation.",
     tags: ["Power BI", "DAX", "Power Query", "Data Modelling"],
     color: "#074a55",
-    image: "/logistics-dasboard.png",
+    image: "/image/logistics-dasboard.png",
     github: "https://github.com/TheBadejoEniola/Logistics-Operations-PowerBI-Capstone",
     featured: true,
     span: "wide",
