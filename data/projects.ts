@@ -35,6 +35,7 @@ export const projects: Project[] = [
       { label: "Safety Incidents", value: "170" },
     ],
   },
+    {
     slug: "afrimart-kollybright-sales-dashboard",
     title: "AfriMart KollyBright Sales Dashboard",
     tagline: "Showed that Rice drives ~60% of revenue at the lowest margin, and where profit growth can come from",
